@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="./sign.webp">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/sweetalert2.all.min.js">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+
+
+    <div class="m-auto my-5 content pb-5">
+        <h1 class="mt-5">Smart Login System</h1>
+        <div class="container ">
+            <div class="  m-auto  w-75">
+             
+                <label class=" "><i class="fa-regular fa-envelope-open"></i> name</label>
+                <input type="text" id="name" class="form-control mb-3 text-light" onblur="nameVal"
+                    placeholder="Enter your name" />
+
+                <label class=" "><i class="fa-regular fa-envelope-open"></i> Email</label>
+                <input type="text" id="email" class="form-control mb-3 text-light" onblur="nameVal"
+                    placeholder="Enter your email" />
+        <label id="text-message2" class="text-danger fw-lighter text-center w-100 d-none"> This Email is already Signed Up...</label>
+
+
+                <label class=""><i class="fa-solid fa-unlock-keyhole"></i> Password</label>
+                <input type="password" id="pass" class="form-control mb-3 text-light"
+                    placeholder="Enter your Password" />
+
+
+                <button class="btn px-5 my-3 position-relative w-100" id="bton2"
+                    onclick="createEmail() ">Sign Up</button>
+                <div class="sign">
+                    <h3 class=" fs-6 ">You have an account? <a href="index.html" class="text-decoration-none text-light">Sign In </a>
+                    </h3>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <input type="text" id="webSearch" onkeyup="searchWebsite('bgsuccess')" placeholder="search" class="form-control w-50 m-auto"/> -->
+
+
+
+
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
